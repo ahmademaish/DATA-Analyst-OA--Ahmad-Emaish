@@ -1,19 +1,21 @@
-# CSF Internship Assessment 2024
+# CSF Data Analyst Assessment
 
-If you are interested in an internship opportunity with the Canadian Sheep Federation for Summer 2023, please complete the tasks outlined in the .md file relevant to what you are interested in doing this summer.
+This repository is intentionally organized only for the Data Analyst submission.
 
-E.g. those interested in QA should complete the QA assignment.
+## Final Submission File
 
-## Data Analyst Submission
+- `AHMADEMAISHDATAAnalystOA.ipynb`
 
-The completed Data Analyst notebook is available at:
+## Included Data Sources
 
-- `Canadian_Cheese_Weather_Analysis.ipynb`
+- `cheese_data.csv`
+- `canada_weather.csv`
+- `Canada_Temperature_Data.csv.zip`
 
-This notebook includes:
+## Notebook Highlights
 
-- A modular ETL pipeline that uses all three datasets (`cheese_data.csv`, `canada_weather.csv`, and `Canada_Temperature_Data.csv.zip`)
-- Data cleaning and standardization steps
-- Province-level weather and cheese integration
-- Two interactive visualizations
-- Executive inferences on cheese production vs provincial climate
+- Enterprise-style ETL pipeline with modular, documented functions
+- Advanced data sanitization and province standardization
+- Merged climate intelligence from both weather datasets
+- Premium interactive visualizations (bubble, 100% stacked bar, correlation heatmap)
+- Executive conclusions focused on climate vs regional infrastructure/cultural drivers
